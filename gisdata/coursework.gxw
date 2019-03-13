@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="cp1252"?>
+<!DOCTYPE gxw SYSTEM "grass-gxw.dtd">
+<gxw>
+    <layer_manager dim="1153,629,525,400">
+    </layer_manager>
+    <display name="Display 1" render="1" mode="0" showCompExtent="1" alignExtent="1" constrainRes="0" showStatusbar="1" showToolbars="1" dim="1024,17,825,600" extent="444000.000000,310000.000000,456000.000000,322000.000000,0.000000,1.000000" tbres="1.000000" viewMode="2d" >
+        <layer type="vector" name="sites@tennakot" checked="1" opacity="1.000000">
+            <selected />
+            <task name="d.vect">
+                <parameter name="color">
+                    <value>blue</value>
+                </parameter>
+                <parameter name="map">
+                    <value>sites@tennakot</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="railbuf@tennakot" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>railbuf@tennakot</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="waterbuf@tennakot" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>waterbuf@tennakot</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="sloped@tennakot" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>sloped@tennakot</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="urbanbuf@tennakot" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>urbanbuf@tennakot</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="toadbuf@tennakot" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>toadbuf@tennakot</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="skylarkbuf@tennakot" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>skylarkbuf@tennakot</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="otterbuf@tennakot" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>otterbuf@tennakot</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="orchidbuf@tennakot" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>orchidbuf@tennakot</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="roadsclean@tennakot" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>roadsclean@tennakot</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="roadsbuf@tennakot" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>roadsbuf@tennakot</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="image@PERMANENT" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>image@PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+    </display>
+</gxw>
